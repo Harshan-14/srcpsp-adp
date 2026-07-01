@@ -1,0 +1,2 @@
+# Stochastic_Resource_Constrained_Project_Scheduling_Problem
+Approximate Dynamic Programming for Stochastic RCPSP
