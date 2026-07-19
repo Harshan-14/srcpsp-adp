@@ -134,12 +134,12 @@ def render_gantt(executions):
 # Header
 # ---------------------------------------------------------------------------
 
-st.title("Stochastic RCPSP \u2014 ADP Walkthrough")
+st.title("Stochastic RCPSP-ADP Walkthrough")
 st.markdown(
     "This dashboard walks through an Approximate Dynamic Programming (ADP) "
-    "solution to the Stochastic Resource-Constrained Project Scheduling "
+    "solution to the Stochastic Resource Constrained Project Scheduling "
     "Problem. Read the sections in order: problem definition first, then "
-    "the three-phase pipeline, then a single trajectory visualization."
+    "the three phase pipeline, then a single trajectory visualization."
 )
 st.divider()
 
@@ -178,13 +178,13 @@ with st.sidebar:
 # PART A \u2014 Problem definition
 # ---------------------------------------------------------------------------
 
-st.header("Part A \u2014 What the problem looks like")
+st.header("Part A- What the problem looks like")
 
 st.subheader("1. Projects and tasks")
 st.markdown(
     "Five research projects compete for two shared labs. Each project has a "
     "fixed sequence of tasks. Each task must run on a specific lab and has "
-    "three possible outcomes \u2014 *fail*, *moderate*, or *high* \u2014 each "
+    "three possible outcomes: *fail*, *moderate*, or *high*, each "
     "with its own duration and cost. Completing a project earns a "
     "time-decaying reward R(k) = R\u2080 \u00b7 exp(\u2212\u03b1 \u00b7 k)."
 )
